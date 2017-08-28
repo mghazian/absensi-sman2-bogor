@@ -1,0 +1,52 @@
+.sidebar {
+    min-height: 100vh !important;
+    background-color: #393939;
+    padding: 0px !important;
+}
+
+.sidebar .group {
+    margin-top: 19px;
+    margin-bottom: 25px;
+}
+
+.sidebar .header {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #fefefe;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar .content {
+    font-size: 0.90rem;
+    font-weight: 200;
+    color: #eeeeee;
+    vertical-align: middle;
+}
+
+.sidebar .content .subheader {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 25px;
+    margin: 15px;
+}
+
+.sidebar .content .link {
+    padding: 10px;
+}
+
+.sidebar .content .link:hover {
+    padding-left: 15px;
+}
+
+.sidebar .content a {
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.sidebar .content .active {
+    background-color: #6969ff;
+}

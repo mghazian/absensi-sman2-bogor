@@ -1,0 +1,45 @@
+table.attendance {
+    border-collapse: collapse;
+}
+
+table.attendance tr {
+    display: block;
+    float: left
+}
+
+table.attendance td,
+table.attendance th {
+    display: block;
+}
+
+table.attendance tbody tr {
+    border-top: 1px solid #332222;
+}
+
+table.attendance tbody td.present {
+    background-color: #11aa22;
+}
+
+table.attendance tbody td.sick {
+    background-color: #aaaaaa;
+}
+
+table.attendance tbody td.excused {
+    background-color: #ffff32;
+}
+
+table.attendance tbody td.miss {
+    background-color: #ff8888;
+}
+
+table.attendance tbody td.late {
+    background-color: #88ff22;
+}
+
+table.attendance tbody td.exempt {
+    background-color: #88ff22;
+}
+
+table.attendance tbody td.null {
+    background-color: #445544;
+}
